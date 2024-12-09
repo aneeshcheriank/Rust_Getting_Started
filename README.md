@@ -61,3 +61,7 @@
 - `let number_slices:&[i32] = &[1, 2, 3, 4, 5]`
 - `let book_slice:&[&String] = &[&"IT".to_string(), &"Harry Porter".to_string(), &"ZEN".to_string()]
 - 'println!("Book Slices: {:?}", book_slice)
+- string is mutable, can add values to string while slice can't
+- all the varibles are immutable in rust
+- need to add mut to make it mutable
+- `let mut x:String = String::from("Hel, ")`
