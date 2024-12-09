@@ -55,7 +55,7 @@
 - Alice is not a string it is a string slice
 - `let my_mix_tuple = ("Kartos", 23, true, [1, 2, 3, 4, 5]);`
 
-### Slices
+### Slices Vs String
 - contigious sequence of elements
 - adjusent places in memory
 - `let number_slices:&[i32] = &[1, 2, 3, 4, 5]`
@@ -65,3 +65,7 @@
 - all the varibles are immutable in rust
 - need to add mut to make it mutable
 - `let mut x:String = String::from("Hel, ")`
+
+## Functions
+
+
