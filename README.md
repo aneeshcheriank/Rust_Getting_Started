@@ -67,5 +67,24 @@
 - `let mut x:String = String::from("Hel, ")`
 
 ## Functions
+- fn keyword
+```
+fn main(//arguments)-> <return_type>{
+    //code
+}
+```
+
+## Ownership
+- garbage collection
+- garbage collector stops program execution for feeing up the memory
+- Evert vakyes gas a single owner
+- borrow references
+- Ownership rules
+    - each value has an owner
+    - only one owner at a time
+    - when owner goes out of scope, the value will be dropped
+
+## Borrowing and References
+
 
 
