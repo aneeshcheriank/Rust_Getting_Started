@@ -85,6 +85,10 @@ fn main(//arguments)-> <return_type>{
     - when owner goes out of scope, the value will be dropped
 
 ## Borrowing and References
-
+- borrowing value from the 
+- ownership will not be transfered
+- immutable / mutable references
+    - immutable will not allow to modify the data
+- & to borrow data
 
 
