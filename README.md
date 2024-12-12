@@ -90,5 +90,16 @@ fn main(//arguments)-> <return_type>{
 - immutable / mutable references
     - immutable will not allow to modify the data
 - & to borrow data
+- we can have one mutable reference or many immutable referance
+
+## Struct
+- data type that groups toughter mutliple related vlaues (fields)
+```
+struct Person {
+    name: String,
+    age: u32,
+    is_active: bool,
+}
+```
 
 
