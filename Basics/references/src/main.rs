@@ -40,6 +40,8 @@ fn main(){
     account.check_balance();
 }
 
+// struct is a construct we can define may primitive data types as a collection
+// accessed by . operator eg: Bankaccout.ower
 struct BankAccount {
     owner: String,
     balance: f64,
@@ -54,6 +56,8 @@ impl BankAccount{
         self.balance -= amount
     }
 
+    // the function is not called self as mutable
+    // can't change the values in this function
     fn check_balance(&self){
         println!("Account balance {} for the account owner {}", self.balance, self.owner);
     }
