@@ -1,4 +1,5 @@
 # Rust
+- [Rust Book](https://doc.rust-lang.org/book/)
 
 ## installing Rust
 - [installation page](https://www.rust-lang.org/tools/install)
@@ -101,5 +102,32 @@ struct Person {
     is_active: bool,
 }
 ```
+
+## Variables
+- immutable by default
+```
+fn main() {
+    println!("Hello, world!");
+    let x: u16 = 5;
+    println!("Value of x is {}", x)
+    let x = 10
+    // will generate an error can't assign an immutable variable twice
+}
+```
+- define `let mut x:u8 = 5`, then you can change the value
+
+## constants
+- immutable
+- can't use mut with constants
+- `const Y:u8 = 10`
+    - the name should be in upper case, otherwise generate a warning
+    - the type should be there
+
+## Shadowing
+- 2 variables share same name
+- 1st variable is shadowed by the second variable
+
+
+
 
 
