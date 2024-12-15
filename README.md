@@ -153,8 +153,8 @@ fn main() {
 ## loops
 - loop
     - unconditional loop
-    ```
-    fn main() {
+```
+fn main() {
     let mut count = 0;
     'counting_up: loop {
         println!("count = {count}");
@@ -175,7 +175,7 @@ fn main() {
     }
     println!("End count = {count}");
 }
-    ```
+```
 - while
 - for
 
