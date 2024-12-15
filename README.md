@@ -127,6 +127,17 @@ fn main() {
 - 2 variables share same name
 - 1st variable is shadowed by the second variable
 
+## Comments
+- readability
+- // one line comment
+- ctrl + / (vs code)
+- /* */ multi-line comments
+
+## if else condition
+- control flows
+    - conditions
+    - repeating flows
+- 
 
 
 
