@@ -203,5 +203,45 @@ enum IpAddrKind{
 }
 ```
 
+## Error handling
+- 2 approaches
+- Option<T>
+```
+fn main(){
+    enum Option<T>{ //Define a generic option type
+        Some(T), //represents a value
+        None, // represents no value
+    }
+}
+```
+    - example
+    ```
+    fn main() {
+    let result = devide(10.0, 0.0);
+
+    match result{
+        Some(x) => println!("Result:{x}"),
+        None => println!("Can't divide by Zero!"),
+    }
+}
+
+fn devide(x:f32, y:f32)->Option<f32>{
+    if y == 0.0{
+        None
+    } else {
+        Some(x/y)
+    }
+}
+
+    ```
+- enum Result<T, E>
+```
+fn main(){
+    enum Result<T, E>{
+        ok(T), //Represents a value
+        Err(E), //Represents an error
+    }
+}
+```
 
 
