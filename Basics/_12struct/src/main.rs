@@ -6,7 +6,8 @@ fn main() {
         sign_in_count: 10
     };
     user.email = "someotheremail@gmail.com".to_string();
-    println!("{:?}", user);
+    println!("{:#?}", user);
+    //{:#?} will do the pritty printing
 }
 
 // struct Book{

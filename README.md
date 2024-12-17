@@ -180,6 +180,20 @@ fn main() {
 - for
 
 ## Structs
+- struct
+- impl
+- function can return struct
+- tuple struct
+    ```
+    struct Color(i32, i32, i32);
+    let black: Color = Color(0, 0, 0);
+    ```
+- unit like struct
+    - usally implemented when you need implement a trait but no need to store data
+    ```
+    struct AlwaysEqual;
+    let subject: AlwaysEqual = AlwaysEqual;
+    ```
 
 
 
