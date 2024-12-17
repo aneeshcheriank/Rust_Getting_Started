@@ -6,20 +6,36 @@ fn main() {
     loop_loop();
     loop_label();
     // while funtions
-    println!("While function")
+    println!("While function");
     while_fn();
+
+    // for loop
+    println!("for loop");
+    for_loop();
+    iterate_elements();
 }
 
 fn while_fn(){
     let mut number = 3;
-    while number <= 10{
+    while number <= 10{ // while loop
         println!("The number is {number}");
         number += 1;
     };
 }
 
 fn for_loop(){
-    {}
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {element}");
+    }
+}
+
+fn iterate_elements(){
+    for number in (1..4).rev(){
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
 }
 
 fn loop_loop(){
