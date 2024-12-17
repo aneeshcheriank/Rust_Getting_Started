@@ -218,17 +218,19 @@ fn main(){
     ```
     fn main() {
         let result = devide(10.0, 0.0);
-
+        // to match the function outputs
         match result{
             Some(x) => println!("Result:{x}"),
             None => println!("Can't divide by Zero!"),
         }
     }
 
+    // the function return type is option
     fn devide(x:f32, y:f32)->Option<f32>{
         if y == 0.0{
             None
         } else {
+            // the division is wrapped in "Some"
             Some(x/y)
         }
     }
