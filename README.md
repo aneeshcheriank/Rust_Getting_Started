@@ -266,4 +266,14 @@ fn divide(x:f32, y:f32)-> Result<f32, String>{
 }
 ```
 
+## collections
+- vectors
+- UTF-8
+- Hash maps
+
+### Vectors
+- more than one value in collection type
+- consequenct location in memory
+- mutable
+
 
