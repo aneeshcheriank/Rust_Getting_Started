@@ -194,6 +194,14 @@ fn main() {
     struct AlwaysEqual;
     let subject: AlwaysEqual = AlwaysEqual;
     ```
+## Enum
+- bundle related data types
+```
+enum IpAddrKind{
+    v4,
+    v6,
+}
+```
 
 
 
