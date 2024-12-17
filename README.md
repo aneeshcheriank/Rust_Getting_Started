@@ -214,7 +214,7 @@ fn main(){
     }
 }
 ```
-    - example
+- example
     ```
     fn main() {
         let result = devide(10.0, 0.0);
