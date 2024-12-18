@@ -16,4 +16,9 @@ fn vector(){
     numbers.push(10);
     println!("Vector: {:?}", numbers);
 
+    // read the elements of vector
+    // index starts from 0
+    println!("The third element of the vector: {}", numbers[2]);
+    // .get method
+    println!("The 2nd element is {:?}", numbers.get(1));
 }

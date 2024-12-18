@@ -276,4 +276,23 @@ fn divide(x:f32, y:f32)-> Result<f32, String>{
 - consequenct location in memory
 - mutable
 
+### UTF-8
+- strings are UTF-8 encoded
+- push mehtod for character
+- push_str() for string
+- + can used to combine strings
+
+### Hash maps
+- key and value
+```
+from 
+let mut scores: HashMpa<String, i32> = Hashmap::new();
+
+scores.insert(k: String::from("Blue"), v:10);
+scores.insert(k: String::from("Yellow"), v:50);
+
+let team_name: String = String::from("Blue");
+let score = scores.get(&team_name).copied.unrap_or(default: 0);
+```
+
 
